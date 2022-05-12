@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManDangBai">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Đăng Truyện "
+        android:textColor="#04BCAA"
+        android:textSize="40sp"
+        android:textStyle="bold">></TextView>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/dbTentruyen"
+        android:hint="Tên Tuyện"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/round_broder1"> </EditText>
+
+
+    <EditText
+        android:id="@+id/dbnoidung"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nội dung"
+        android:paddingLeft="30dp"
+        android:background="@drawable/round_broder1"/>
+
+    <EditText
+        android:id="@+id/dbimg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_broder1"
+        android:hint="Ảnh"
+        android:inputType="text"
+        android:paddingLeft="30dp"></EditText>
+
+    <Button
+        android:id="@+id/dbdangbai"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#04BCAA"
+        android:text="Đăng Truyện"></Button>
+
+</LinearLayout>

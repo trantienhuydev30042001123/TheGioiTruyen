@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:background="@drawable/ic_bg1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imageview"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/user_icon2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"></ImageView>
+
+    <TextView
+        android:id="@+id/TEXT_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Trần Tiến Huy"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/TEXT_Gmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="huy@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/TEXTTrangThai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Online"
+        android:textColor="#00FF0B"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dangnhap">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#7D9F9C"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="13dp"
+            android:backgroundTint="#B1B3B3"
+            android:src="@drawable/ic_register_hero"></ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Đăng Nhập"
+        android:textColor="#04BCAA"
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:drawableRight="@drawable/ic_taikhoan"
+        android:id="@+id/taikhoan"
+        android:layout_marginTop="40dp"
+        android:hint="Tài khoản"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/round_broder1"></EditText>
+    <EditText
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_password"
+        android:id="@+id/matkhau"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:hint="Mật khẩu"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/round_broder1"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dangnhap"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#04BCAA"
+            android:text="Đăng nhập"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:id="@+id/dangky"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#04BCAA"
+            android:text="Đăng ký"
+            android:textStyle="bold"></Button>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnLogin"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Login"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnLogup"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Signup" />-->
+    </LinearLayout>
+</LinearLayout>
